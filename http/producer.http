@@ -1,0 +1,24 @@
+POST http://localhost:8080/v1/api/producer
+Content-Type: application/json
+
+{
+  "message": "PROBANDO CLUSTERING"
+}
+
+
+###
+POST http://localhost:8080/v1/api/producer2
+Content-Type: application/json
+
+{
+  "message": "PROBANDO CLUSTERING CON 2"
+}
+
+
+###
+POST http://localhost:8080/v1/api/producer3
+Content-Type: application/json
+
+{
+  "message": "PROBANDO CLUSTERING CON 3"
+}
